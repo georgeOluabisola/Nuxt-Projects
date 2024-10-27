@@ -1,0 +1,24 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "My dazzling Nuxt.js project",
+  "author": "George Oluabisola",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "axios": "^0.17.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "js-cookie": "^3.0.5",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
